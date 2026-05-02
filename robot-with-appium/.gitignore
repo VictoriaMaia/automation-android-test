@@ -1,1 +1,5 @@
-robot-with-appium/projects/yodapp-robot/node_modules
+node_modules/
+venv-robot/
+__pycache__/
+*.pyc
+logs/
