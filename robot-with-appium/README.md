@@ -26,7 +26,9 @@ Com isso o servidor do appium vai ser iniciado e o inspector pode ser acessado p
 
 | $ studio
 
-2. Open appium server
+2. Open appium server 
+
+    2.1 Go to folder that you install locally. If you installed globally you not need do this step, just run the following command!
 
 | $ npx appium --use-plugins=inspector
 
