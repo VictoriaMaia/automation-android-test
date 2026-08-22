@@ -42,3 +42,8 @@ Remove task by name
 
 Finish ${task} task
     Click Element    xpath=//*[@text="${task}"]/..
+
+
+Task should be done
+    [Arguments]    ${task}
+    Wait Until Element Is Visible    xpath=//*[@text="${task}"]/..//android.widget.ImageView

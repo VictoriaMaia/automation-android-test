@@ -46,4 +46,4 @@ Updating task
     Should have task     task name=${task}
 
     Finish Estudar XPath task
-    Wait Until Element Is Visible    xpath=//*[@text="${task}"]/..//android.widget.ImageView
+    Task should be done    ${task}

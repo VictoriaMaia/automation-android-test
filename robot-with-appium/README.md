@@ -39,3 +39,7 @@ Com isso o servidor do appium vai ser iniciado e o inspector pode ser acessado p
 4. Run the robot tests
 
 | $ robot --outputdir ./logs/results_$(date +%Y%m%d_%H%M%S) tests/
+
+5. In the case that you will use the PLATFORM variable you can run:
+
+| $ robot --outputdir ./logs/results_$(date +%Y%m%d_%H%M%S) -v PLATFORM:ios tests/login.robot
