@@ -77,3 +77,11 @@ Get the status of radio
     END
 
     RETURN    ${False}
+
+
+Select level from create account
+    [Arguments]    ${level}
+
+    Click Element    id=com.qaxperience.yodapp:id/spinnerJob
+    Wait Until Element Is Visible    class=android.widget.ListView
+    Click Text       ${level}
